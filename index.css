@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  height: 75px;
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  min-height: calc(100vh - 75px - 60px);
+  background-color: #282a36;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+footer {
+  height: 60px;
+  background-color: gray;
+}
+
+/* Menu section */
+.menu-section {
+  display: flex;
+}
+
+.logo {
+  width: 44.75px;
+  height: 42px;
+  padding: 16px;
+}
+
+.menu-section__items {
+  padding: 24px 16px;
+}
+
+/* Button section */
+.button-section {
+  display: flex;
+  align-items: center;
+}
+.wrap {
+  padding: 16px 0;
+}
+
+.button-section__items {
+  margin-right: 15px;
+  padding: 8px 16px;
+  font-size: 18px;
+  font-weight: 400;
+  border: 0;
+  border-radius: 25px;
+}
+
+.one {
+  background-color: black;
+  color: #fff;
+}
+
+.two {
+  background-color: #ffbfc8;
+  color: #000;
+}
+
+.three {
+  background-color: #fef4a4;
+  color: #000;
+}
+
+.four {
+  background-color: #03ab6d;
+  color: #fff;
+}
+
+.icon {
+  padding: 24px 12px;
+}
+
+.login_button {
+  /* padding: 16px 0; */
+  margin-right: 15px;
+}
+
+.menu-section__items {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menu-section__items:hover {
+  background-color: #03ab6d;
+}
+
+/* Main */
+.search-button {
+  color: white;
+}
+.learn-to-code {
+  font-size: 70px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+}
+
+.description {
+  color: #ffc0c7;
+  font-weight: 700;
+  margin-top: 30px;
+  font-size: 23px;
+  margin: 0;
+}
+.main-a {
+  color: #fff;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+}
+
+input {
+  border-radius: 25px 0 0 25px;
+  border: 0;
+  width: 363px;
+  height: 25px;
+  padding: 10px 10px 10px 25px;
+  box-sizing: border-box;
+}
+
+.search-icon {
+  color: #fff;
+}
+
+.submit {
+  border-radius: 0 25px 25px 0;
+  border: 0;
+  width: 79px;
+  height: 25px;
+}
